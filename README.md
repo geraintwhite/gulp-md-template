@@ -1,5 +1,5 @@
 # gulp-md-template
-Gulp plugin uses [markdown-templator](https://github.com/grit96/markdown-templator) to include markdown files in an HTML template
+Gulp plugin uses [markdown-templator](https://github.com/grit96/markdown-templator) to include markdown files in an HTML template.
 
 ## Installation
 ```sh
