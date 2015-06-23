@@ -4,7 +4,7 @@
   "description": "Include markdown files in an HTML template",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./test/test.js | tap-spec"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,8 @@
     "through2": "^2.0.0"
   },
   "devDependencies": {
-    "gulp": "^3.9.0"
+    "gulp": "^3.9.0",
+    "tap-spec": "^4.0.0",
+    "tape": "^4.0.0"
   }
 }
