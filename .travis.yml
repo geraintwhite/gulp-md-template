@@ -1,10 +1,16 @@
 language: node_js
-
 node_js:
-  - '0.10'
-  - '0.11'
-  - '0.12'
-
+- '0.10'
+- '0.11'
+- '0.12'
 script:
-  - npm install
-  - npm test
+- npm install
+- npm test
+deploy:
+  provider: npm
+  email: mail@geraintwhite.co.uk
+  api_key:
+    secure: qO0jnqK+iLqthbLmgdNOZDZgoVw9pyCnZvsbSQfsrNHd4A5w3DqWq0bxeRJSinT4lKOUiJHKSF7oLg/YmqDoZwUbTR6ydNaAm6PtOZSQDC/srvQDNyrsJNa3VOW5DOWlHZ3rVjJYJ91nd7GVRM0oGxXtAI45PeNBovoBEfSDOJaY+mTX2T56m50CGwrAtBlGSbKLTjHBPPGojf+pVaQtr8sLHUBkBMoPmEkGVXoheWAkDbr7LMLNoYtCaj+mZq6L5TDEkNsbPvBI6MlQ8PK0+0zyJ2kirk9t4PmWf1+Wyhh3AyC5cAVKvUEDaOJir2cFntcu1ESggBXB9VamyksgQIvxsgFUhlOweJCYu3AmvC5Vzvw1xt/rOEfSpeKp0fL+AjokmrTPUeI3EipjOlVpM3F79rNe1ZKEwQIY774Kyi/FGkQjlvVw6u4Z3hwhn6thpRSq8E+0BW3xeF80C3bhluqe/i0dkmDtFgQWOyjxW/Do/8xbxjKPh8/P3fyPS07TXbyp4pbI66d8eRMIERpi9gbyE3E3Paj/alrKnDzjHhTxil48hnEGs0MpayHYo+DEjgqCRnFARMeXDzUy1oIfZOpFQpvtpfm3bgYdQHtABSnZlofvaIMgu9JlaIK/wfANl2ok+aZnipIKnH2oOTPEiO6wHQDRk+XgfrAE38c1KzY=
+  on:
+    tags: true
+    repo: grit96/gulp-md-template
