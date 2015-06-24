@@ -46,4 +46,8 @@ test('template process', function (t) {
     process('with-html.html', 'test/fixtures/includes', st);
   });
 
+  t.test('process file with image in HTML block', function (st) {
+    process('image.html', 'test/fixtures/includes', st);
+  });
+
 });
