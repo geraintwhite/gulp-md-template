@@ -23,7 +23,7 @@
   },
   "devDependencies": {
     "gulp": "^3.9.0",
-    "tap-spec": "^4.0.0",
+    "tap-spec": "^5.0.0",
     "tape": "^4.0.0"
   }
 }
