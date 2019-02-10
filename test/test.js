@@ -22,6 +22,8 @@ function process (filename, options, st) {
 
 test('template process', function (t) {
 
+  t.plan(7);
+
   t.test('process file with no includes', function (st) {
     process('no-includes.html', {}, st);
   });
