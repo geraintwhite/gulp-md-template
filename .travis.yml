@@ -1,20 +1,17 @@
 language: node_js
-
 node_js:
-  - 10
-  - 8
-  - 6
-  - 4
-
+- 10
+- 8
+- 6
+- 4
 script:
-  - npm install
-  - npm test
-
+- npm install
+- npm test
 deploy:
   provider: npm
   email: mail@geraintwhite.co.uk
   api_key:
-    secure: PUYnS43hVKlGnHq8gn8wXLXhy79A3JcCeZJlFyueGQBjWprKk9+g2iZ8Syy0b1+vH5hllTrxOEmuBs3RVnev7DZ91GfjS58B3DkiTu2R+tVg3hgVbcn1tOMToiODv5lRmrClCf51C6oovWtU6JzNVhNQyotx0H4VkLPhDWmuvfgUnwP6i3K5///iQE9Sn+3mUi8ISFgMBz3Qj35UXLGSkwmMlquB0tbnedVgKarVIdoDV9AoUF+u8mO9GuDAcQTDDSgpxjnb2JN72xgfmpuLrPx4Or5UOBvWtNxcNNKlXWdbn7JJfiGhdRBoeQzPJ2SvSWgteqvfvJZBRm0fJMExFR+AOAwXdOZhyY0uHMl3WD0fcApUNi+JtGwE6hh5KO0hcG63hCPC9GszRrOOQzpmGirQGwLKKfEbF78ZkqBPKlaLPyKGKZxoKCbZG6PQCuPJv+4EJRyl86Px6pD3sLFz2+yJQj8RCopxG2IM4BNsIxEOJ6FUtRSIrAyIcdZXQ0jKciiSBXLQ62V6ABt8FmTUnRsCvbog0/LYN61p7fWtYQg7ULOF7Kn7sJSPU4Cst+AqUe8+MoOARY5/yUYRAeghE2qLxOfllTwsSDwUFH4aRQXiXg/2pVltyvkinklcZoFpW6Km+++nlBjDMwnOSyT+dfjFvKmjXexA8VxmcxmFKco=
+    secure: jHEmH0RFt+x5HronUuLpf/of00B5rIjlOFlkB22iFfJOmIvRQGmiE8W+po2A3IFlh8EfBPYnyjoj8t2sdd1gcsJi/jhnfu2hnx6HDLlJ3PXYzHphQhdxka75Fprls2v5NrEQoOUKrGI+uKp2qPhA+z0L3qsWSoEvGJ/J9xLGJHypFQovx0m4A4lvoLLVZ6cHr0X7FgIXHuTsnGQgUcNAa1rTi5FBQrbeYeHkgFiD+dTyKBKE3z1le6ZJbOne+iJ5MqJ9ptMa4p+9PEJXNZ9Ejq39n1k+R7tpkuRmG/wFr7KyNVep+4rocko9vUUSyxd8UN+FJ3z+2zVjLFba1Ekh1Vb34dMykFCpbLguagnduRnc7DcImhoTMd3XFXVq1P1+nufQ7SaZgRIABgTPuH+Y2R6HftlvPRRYm/6m07nbBZSyIMHrY++82QXSdewBb47XvXvG5lN4XNPEfW0R7Rj4dWqvGWooSydrKLJ5F/Gcp0GEPcAvuP03sm0OeQwxcCw8bqIKm2QokQLyDXfLx7zY/t4yrU0aTkjOtOhUssgIMGQoVE5rgON1v8MdrVnXD2F/1Pd31QGMX8zzYg6n90G2ODTqJBXK2fhfJFBjZYXQ93OEyz2kxgoFXi65EWZ8BBDoOAhTLJ2L65ZYMxRyYUfUOL7R36ms3dmFAA+Aq3kzzVA=
   on:
     tags: true
     repo: grit96/gulp-md-template
