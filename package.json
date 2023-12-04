@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:grit96/gulp-md-template.git"
+    "url": "git@github.com:geraintwhite/gulp-md-template.git"
   },
   "author": "Geraint White <geraintwhite@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/grit96/gulp-md-template/issues"
+    "url": "https://github.com/geraintwhite/gulp-md-template/issues"
   },
-  "homepage": "https://github.com/grit96/gulp-md-template#readme",
+  "homepage": "https://github.com/geraintwhite/gulp-md-template#readme",
   "dependencies": {
     "gulp-util": "^3.0.5",
     "markdown-templator": "^1.0.0",
