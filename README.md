@@ -1,10 +1,9 @@
 # gulp-md-template
 
 [![NPM Version](https://img.shields.io/npm/v/gulp-md-template.svg)](https://www.npmjs.com/package/gulp-md-template)
-[![Build Status](https://img.shields.io/travis/grit96/gulp-md-template.svg)](https://travis-ci.org/grit96/gulp-md-template)
-[![Dependency Status](https://img.shields.io/david/grit96/gulp-md-template.svg)](https://david-dm.org/grit96/gulp-md-template)
+[![Build Status](https://img.shields.io/travis/geraintwhite/gulp-md-template.svg)](https://travis-ci.org/geraintwhite/gulp-md-template)
 
-Gulp plugin uses [markdown-templator](https://github.com/grit96/markdown-templator) to include markdown files in an HTML template.
+Gulp plugin uses [markdown-templator](https://github.com/geraintwhite/markdown-templator) to include markdown files in an HTML template.
 
 ## Installation
 ```sh
